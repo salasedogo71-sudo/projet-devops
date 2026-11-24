@@ -1,0 +1,12 @@
+     1  def calculate_fee(amount):
+     2      return round(amount * 0.02, 2)
+     3
+     4
+     5  if __name__ == "__main__":
+     6      amount = 1000
+     7      fee = calculate_fee(amount)
+     8
+     9      print("Finance Service Portal")
+    10      print("----------------------")
+    11      print("Transaction Amount:", amount)
+    12      print("Processing Fee:", fee)
